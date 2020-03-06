@@ -31,7 +31,7 @@ const outputHtml = matches => {
   if(matches.length > 0) {
     const html = matches.map(match => `
       <div class="card card-body mb-1">
-        <h5 class="text-primary">${match.name}</h5>
+        <h5 class="text-primary"><b>${match.name}</b></h5>
         <h5>${match.package_type}</h5>
         <medium>${match.ver_suffix} <br> ${match.hashtag}</small>
       </div>
